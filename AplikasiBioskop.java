@@ -12,7 +12,7 @@ public class AplikasiBioskop {
                 tampilkanMenu();
                 System.out.print("Pilih: ");
                 pilihan = input.nextInt();
-                input.nextLine(); // membersihkan buffer
+                input.nextLine(); 
                 switch (pilihan) {
                     case 1:
                         tampilkanFilm();
@@ -66,7 +66,7 @@ public class AplikasiBioskop {
 
         System.out.print("Masukkan jumlah film yang ingin ditambahkan: ");
         int jumlah = input.nextInt();
-        input.nextLine(); // membersihkan buffer
+        input.nextLine(); 
 
         for (int i = 0; i < jumlah; i++) {
             if (jumlahFilm >= 10) {
